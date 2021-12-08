@@ -11,15 +11,16 @@ export default {
     return {
       isPlaying: false,
       delay: null,
-    };
+    }
   },
   methods: {
     start() {
-      this.delay = 2000 + Math.random() * 5000;
-      this.isPlaying = true;
+      this.delay = 2000 + Math.random() * 5000
+      this.isPlaying = true
+      console.log(this.delay)
     },
   },
-};
+}
 </script>
 
 <style>
